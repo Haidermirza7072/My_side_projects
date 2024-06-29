@@ -1,8 +1,7 @@
-/* *{
+*{
     margin: 0%;
-} */
-body{
-    background-color: black;
+    box-sizing: border-box;
+    padding: 0%;
 }
 .main{
     display: flex;
@@ -14,6 +13,7 @@ body{
     top: 0%;
     bottom:0% ;
 }
+
 .sigin{
     height:auto;
     padding: 20px;
@@ -29,62 +29,56 @@ body{
 .inputbox{
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
     
 }
 .in{
     background-color: rgb(67, 63, 63);
     padding: 5px;
-    width: 80%;
+    width: 90%;
     margin: 10px;
-   
-    /* display: flex;
-    justify-content: flex-start; */
+    position: relative;
+    right: 0px;
 }
-.links{
-    display: flex;
-    justify-content: center;
-    
-    
+.box1{
+    height: 30px;
+    width: 30.8px;
+    margin: 2px;
+    background-color: red;
 }
-.log{
+.box1:hover{
+    background-color: aqua;
+}
+
+.login1{
     /* background-color: aqua; */
     display: flex;
     justify-content: center;
-    /* width: 250px; */
     margin-top:10px ;
 }
-.lo{
+.login2{
     background-color: rgb(14, 244, 141);
     height: 30px;
     width: 260px;
     border-radius: 3px;
 }
-.linkss{
+.forget_password{
     text-decoration: none;
     color: aliceblue;
     position: relative;
-    right: 55px;
-    /* margin: 2px; */
-    /* align-items: start; */
+    left: 20px;
 }
-.linksss{
+.sigup{
     text-decoration: none;
     color: aliceblue;
     position: relative;
-    left: 60px;
-    /* margin: 10px; */
-
+    left: 100px
+}
+.sigup:hover{
+    color: rgb(14, 244, 141);
+}
+.forget_password:hover{
+    color: rgb(14, 244, 141);
 }
 
- .table{
-    border-collapse:collapse;
-    height: 100px;
-    width: 100%;
-    border-spacing: 100px;
-    /* margin: 10px; */
-    /* color: red; */
-    background-color: red;
- }
 
 
