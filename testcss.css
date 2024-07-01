@@ -4,8 +4,7 @@
     padding: 0%;
 }
 .main{
-    /* height: 100px; */
-    background-color: #111;
+    /* background-color: #111; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -101,12 +100,12 @@
     /* position: absolute; */
     width: 30.8px;
     margin: 2px;
-    background-color: black;
-    z-index: 1;
+    background-color: red;
+    /* z-index: 1; */
     flex-grow: 1;
     flex-shrink: 1;
     /* z-index: -1; */
-    /* transition: 0.10s; */
+    transition: 0.10s;
     /* transition: background-color 1ms ease-in-out; */
 }
 .box1:hover{
@@ -115,9 +114,9 @@
 
     
 }
+
 .mm{
     /* position: relative; */
-    position: absolute;
     z-index: -1;
     height: 100%;
     width: 100%;
